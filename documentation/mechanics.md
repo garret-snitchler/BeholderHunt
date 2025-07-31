@@ -13,6 +13,7 @@
 			You can only change jobs after achieving level 20, which is hard to reach in the early game and fairly easy to reach in the late game.
 			There is a single "hidden job" called Sage, though the game itself does a poor job of both communicating that Gadabout transforms into this or that
 				its ability to transform into Sage is notable if it's your first time looking at the job change screen
+			It's also notable that DQ3 has a unique job that only the main character gets, but I think I wouldn't want that and I wouldn't want the MC to be unchangable either
 		DQ9 in comparison doesn't reset you at all and is overall lenient when it comes to job switching. It makes use of a visualization to make clear what equipment is only
 		usable by certain classes, and this is good as it also lets you know what classes will work even if none of that class is represented in your party. I think this is more
 		player friendly than DQ3's version. 
@@ -48,6 +49,20 @@ Weirdly I'm not super feeling the classic mage/cleric right now. If I did do a p
 We'd for sure enforce the blunt weapons only policy. It's also important to me that this is not a required character to have in the party - I'd want there to be other options
 in the form of Staffs of Multiheal, consumables that heal multiple people at once, 
 
+I like Thieves. I think a thief's main quirks would be going fast, getting crits/sneak attacks, and using status ailments. DQ nails it, for the most part. Obviously make sure
+that monsters are actually vulnerable to most status ailments, especially including bosses. I think this kind of also overlaps with my ideas of an alchemist. 
+
+I like monks/martial artists. I subscribe to the theory that one of a martial artist's benefits is not relying upon regular equipment upgrades. Glass cannons.
+
+I like paladins. The concern is too much overlap with warrior or priest. This is a warrior with a divine flair to their abilities. Smites, defensive party buffs, etc.
+
+I'm considering a warlord. This might replace the warrior, and it also feels like it has overlap with the paladin. The rough concept here is a martial character who does
+"leadership" and through that makes the rest of the party stronger. Stuff like offensive buffs, giving a character a second action, having more control over the turn order, etc.
+
+I feel obligated to include some sort of dedicated magic character. If we wanna make things more sexy than your standard priest/mage, then get creative. A warlock that operates
+off of explicitly sinister, demonic energy would be fun. Inspiration would be DD's occultist. 
+Healer variants could be something like a literal healbot, which feels both like a cute joke and an attempt at providing something more flavorful than your usual white mage
+
 Merchant - This is an attempt at having a class that's not really focused on combat at all but is instead there to make things easier outside of combat.
 Obvious bonuses are increased gold after battle, better prices when buying and selling. The tricky thing with a merchant is that the value of a merchant in an RPG is directly
 correlated with how tight the game's economy is and how valuable money is. If we're not confident that we'll have enough uses for money, then the merchant may not be worth including.
@@ -55,7 +70,13 @@ correlated with how tight the game's economy is and how valuable money is. If we
 Do we want joke characters? I feel like if you want a joke character they have to just be all Luck or some other super situational stat
 
 NO beastmasters I don't really like those. HOWEVER, I think maybe a class that's part-beast would be cool. I think a dragon-person is my favorite so far?
-This is pretty clearly Souls inspired by no shutting ideas down this early!
+This is pretty clearly Souls inspired but no shutting ideas down this early! There's also some Darkest Dungeon inspiration from the Abomination, but that's challenging to 
+transport into this since that class's big downside is the damage it does to your party's morale. It's a similar candidate for a berserker character.
+
+A character who's gimmick is being undead would be funny. Maybe a decent idea for a "berserker" reflavoring? No control over them, they don't die, but they don't take direct orders
+
+In a similar vein I think a robot class would be cool. The challenge with both of these non-traditional ones is making it clear to a new player what this class does that sets it 
+apart from others. This could be funny as a Blue Mage type situation.
 
 # Differentiation from a dungeon crawler
 The main thing that sets a dungeon crawler apart from a more typical classic RPG, at least in my eyes, is a combination of three things:
