@@ -1,4 +1,71 @@
 # Stats
+There's a general conflict here between simulationist and making things convenient. I think the compromise is that some armor will come with inherent element resistance.
+Here are ideas for base stats:
+	Strength: Increases damage done by physical attacks.
+	Vitality: Increases max HP, increases resistance to physical ailments such as poison or paralysis.
+	Mind: Increases magic damage, increases resistance to magical ailments such as charm or confusion. Increases success of applying magical ailments.
+	Agility: Determines turn order. Slightly increases critical hit chance, accuracy, and evasion. (Slightly is to emphasize that this is not supposed to be gamebreaking on its own)
+	Charm: Chance to distract enemies in combat. The highest charm in the party will modify your buy and sell prices. Certain skills are powered by charm. 
+		Can be directly increased by certain equipment.
+	
+Certain stats are calculated by factoring in both equipment and stats. They can also be buffed and debuffed mid-combat. These are:
+	Physical Attack - Combination of strength and weapon bonus.
+	Magical Attack - Determined by a combination of Mind and the spell being used. 
+	Physical Defense - Reduces damage taken from physical harm. Defense is only provided by armor. Some armor also provides additional magical/elemental resistance. 
+	Magical Defense - Defense against magical attacks. Harder to gain than physical defense. 
+		(Elemental resistance is also relevant to reducing magical damage - make this easier to see than how it is in DQ.)
+	Critical Hit Rate: This stat is normally low, and receives slight modifiers from Agility. Can be boosted by certain weapons that sacrifice physical attack.
+		Critical hits increase damage and bypass defense.
+	Evasion - This stat is normally low, and receives slight modifiers from Agility. Can be boosted by certain equipment that sacrifices defense. Effective against both physical and magical damage.
+	Elemental Resistance - Resistance to each of the magical elements, gained from equipment both mundane and magical.
+		Fire
+		Ice
+		Wind
+		Earth
+		Light
+		Darkness
+
+# Combat Mechanics
+
+# Jobs
+Warrior - Or something along those lines, the intention with this class is to make a simple attack bot. Warriors are notable not for their abilities but for two traits:
+	1. Warriors are the class that can wield the most equipment. All the heaviest weapons and armor that most classes couldn't use are a wonderful find for any warriors in your party
+	2. Durability. While other classes are reliant upon an MP stat, the warriors will perform as well in the first combat of the adventure as they will in the thirtieth. 
+
+Weirdly I'm not super feeling the classic mage/cleric right now. If I did do a priest I'd distinctly go for a cleric though I like that more than "wizard but in white clothes". 
+We'd for sure enforce the blunt weapons only policy. It's also important to me that this is not a required character to have in the party - I'd want there to be other options
+in the form of Staffs of Multiheal, consumables that heal multiple people at once, 
+
+I like Thieves. I think a thief's main quirks would be going fast, getting crits/sneak attacks, and using status ailments. DQ nails it, for the most part. Obviously make sure
+that monsters are actually vulnerable to most status ailments, especially including bosses. I think this kind of also overlaps with my ideas of an alchemist. 
+
+I like monks/martial artists. I subscribe to the theory that one of a martial artist's benefits is not relying upon regular equipment upgrades. Glass cannons.
+
+I like paladins. The concern is too much overlap with warrior or priest. This is a warrior with a divine flair to their abilities. Smites, defensive party buffs, etc.
+
+I'm considering a warlord. This might replace the warrior, and it also feels like it has overlap with the paladin. The rough concept here is a martial character who does
+"leadership" and through that makes the rest of the party stronger. Stuff like offensive buffs, giving a character a second action, having more control over the turn order, etc.
+
+I feel obligated to include some sort of dedicated magic character. If we wanna make things more sexy than your standard priest/mage, then get creative. A warlock that operates
+off of explicitly sinister, demonic energy would be fun. Inspiration would be DD's occultist. 
+Healer variants could be something like a literal healbot, which feels both like a cute joke and an attempt at providing something more flavorful than your usual white mage
+
+Face - This job has a high charm stat, making it skilled at bartering with merchants and distracting foes in battle. 
+	The flavoring here is intentionally vague. I think there are two main directions we go with it, and I think there's some overlap in utility:
+		The Merchant. An amiable, well connected tradesman. Has abilities related to using items without consuming them (had a second in his bag). Passives that increase gold
+			acquired after battle. Could "charm" some combatants with gold.
+		The Tease. A flirty, seductive character. Has abilities related to making enemies lose turns in battle, charming enemies, powering up party members, etc.
+
+NO beastmasters I don't really like those. HOWEVER, I think maybe a class that's part-beast would be cool. I think a dragon-person is my favorite so far?
+This is pretty clearly Souls inspired but no shutting ideas down this early! There's also some Darkest Dungeon inspiration from the Abomination, but that's challenging to 
+transport into this since that class's big downside is the damage it does to your party's morale. It's a similar candidate for a berserker character.
+
+A character who's gimmick is being undead would be funny. Maybe a decent idea for a "berserker" reflavoring? No control over them, they don't die, but they don't take direct orders
+
+In a similar vein I think a robot class would be cool. The challenge with both of these non-traditional ones is making it clear to a new player what this class does that sets it 
+apart from others. This could be funny as a Blue Mage type situation.
+
+# Level Ups
 
 # Job System?
 1. No job changing system. Characters start as the classes you pick for them. This is the least interesting and the most restrcitve, but in a short game it's not necessarily inappropriate.
@@ -39,44 +106,6 @@
 The conflict here is largely between what I think is interesting and what I think is reasonable to do within the scope of this game. I'm more excited about a job system but I'm
 still uncertain about the actual length of this game. If this ends up being large I'd spring for a job system, but if we're going for something compact I'd probably say to not.
 With that in mind I'm unfortunately going to table the discussion of the specific job changing mechanics until the vision is more clear.
-
-# Jobs
-Warrior - Or something along those lines, the intention with this class is to make a simple attack bot. Warriors are notable not for their abilities but for two traits:
-	1. Warriors are the class that can wield the most equipment. All the heaviest weapons and armor that most classes couldn't use are a wonderful find for any warriors in your party
-	2. Durability. While other classes are reliant upon an MP stat, the warriors will perform as well in the first combat of the adventure as they will in the thirtieth. 
-
-Weirdly I'm not super feeling the classic mage/cleric right now. If I did do a priest I'd distinctly go for a cleric though I like that more than "wizard but in white clothes". 
-We'd for sure enforce the blunt weapons only policy. It's also important to me that this is not a required character to have in the party - I'd want there to be other options
-in the form of Staffs of Multiheal, consumables that heal multiple people at once, 
-
-I like Thieves. I think a thief's main quirks would be going fast, getting crits/sneak attacks, and using status ailments. DQ nails it, for the most part. Obviously make sure
-that monsters are actually vulnerable to most status ailments, especially including bosses. I think this kind of also overlaps with my ideas of an alchemist. 
-
-I like monks/martial artists. I subscribe to the theory that one of a martial artist's benefits is not relying upon regular equipment upgrades. Glass cannons.
-
-I like paladins. The concern is too much overlap with warrior or priest. This is a warrior with a divine flair to their abilities. Smites, defensive party buffs, etc.
-
-I'm considering a warlord. This might replace the warrior, and it also feels like it has overlap with the paladin. The rough concept here is a martial character who does
-"leadership" and through that makes the rest of the party stronger. Stuff like offensive buffs, giving a character a second action, having more control over the turn order, etc.
-
-I feel obligated to include some sort of dedicated magic character. If we wanna make things more sexy than your standard priest/mage, then get creative. A warlock that operates
-off of explicitly sinister, demonic energy would be fun. Inspiration would be DD's occultist. 
-Healer variants could be something like a literal healbot, which feels both like a cute joke and an attempt at providing something more flavorful than your usual white mage
-
-Merchant - This is an attempt at having a class that's not really focused on combat at all but is instead there to make things easier outside of combat.
-Obvious bonuses are increased gold after battle, better prices when buying and selling. The tricky thing with a merchant is that the value of a merchant in an RPG is directly
-correlated with how tight the game's economy is and how valuable money is. If we're not confident that we'll have enough uses for money, then the merchant may not be worth including.
-
-Do we want joke characters? I feel like if you want a joke character they have to just be all Luck or some other super situational stat
-
-NO beastmasters I don't really like those. HOWEVER, I think maybe a class that's part-beast would be cool. I think a dragon-person is my favorite so far?
-This is pretty clearly Souls inspired but no shutting ideas down this early! There's also some Darkest Dungeon inspiration from the Abomination, but that's challenging to 
-transport into this since that class's big downside is the damage it does to your party's morale. It's a similar candidate for a berserker character.
-
-A character who's gimmick is being undead would be funny. Maybe a decent idea for a "berserker" reflavoring? No control over them, they don't die, but they don't take direct orders
-
-In a similar vein I think a robot class would be cool. The challenge with both of these non-traditional ones is making it clear to a new player what this class does that sets it 
-apart from others. This could be funny as a Blue Mage type situation.
 
 # Differentiation from a dungeon crawler
 The main thing that sets a dungeon crawler apart from a more typical classic RPG, at least in my eyes, is a combination of three things:
