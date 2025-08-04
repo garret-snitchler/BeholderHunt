@@ -26,6 +26,24 @@ Certain stats are calculated by factoring in both equipment and stats. They can 
 		Darkness
 
 # Combat Mechanics
+Turn Based Combat
+
+Core inspiration is dragon quest/final fantasy
+
+Player options are:
+	Fight
+	Magic
+	Ability
+	Item
+	Flee
+		No guard, that will be covered by specific defensive spells/abilities 
+Turns will be taken one at a time, no sort of "mass team ordering" since I sometimes find those systems frustrating
+
+There is NO xenoblade-style auto healing, resource management is an intentional aspect of the game. I'd love a system where players will actually want to buy and use items
+
+There will be some amount of elemental weaknesses/resistances, but I don't want SMT levels of importance on weakness targeting since that's mostly a caster thing
+
+No ATB, that's more complicated than I'd really want to go for. Going before the enemy is enough of an advantage for it to be Agility's main thing
 
 # Jobs
 Warrior - Or something along those lines, the intention with this class is to make a simple attack bot. Warriors are notable not for their abilities but for two traits:
